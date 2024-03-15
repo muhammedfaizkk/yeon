@@ -74,6 +74,10 @@ body {
     left: 10%;
 }
 
+.content-main {
+    position: relative;
+}
+
 .banner-section {
     position: relative;
 }
@@ -838,7 +842,7 @@ ul.nav>li>a.active {
    About Section
    ========================================================================== */
 .about-section {
-    padding-bottom:50px;
+    padding-bottom: 50px;
 }
 
 .about-wrap {}
@@ -1664,12 +1668,13 @@ ul.nav>li>a.active {
 
 .hero-content h1 {
     font-size: 62px;
-    line-height:70px;
+    line-height: 70px;
     color: #fff;
     letter-spacing: -2px;
     margin-bottom: 20px;
 }
-.nav-logo img{
+
+.nav-logo img {
     width: 100px;
     height: 40px;
 }
@@ -1698,15 +1703,16 @@ ul.nav>li>a.active {
         line-height: 20px;
     }
 }
+
 @media only screen and (max-width:700px) {
-   
+
 
     .hero-content p {
         line-height: 20px;
         width: 60%;
     }
 
-    
+
 }
 
 @media only screen and (max-width:628px) {
@@ -1730,21 +1736,41 @@ ul.nav>li>a.active {
     .hero-content h1 {
         font-size: 18px;
         color: #fff;
-        line-height: 30px;
+        line-height: 22px;
         margin-bottom: 10px;
     }
 
- 
+
 
     .default-btn {
         font-size: 10px;
         border-radius: 2px;
-        padding: 0 10px;
+        height: 40px;
     }
-    .hero-content{
-        display: none;
+
+    .content-aria {
+        position: absolute !important;
+        top: 15%;
+        left: 10%;
+    }
+
+    .hero-content p {
+        line-height: 15px;
+        width: 65%;
+        margin-bottom: 5px !important;
+        font-size: 11px;
+
     }
 }
+
+@media only screen and (max-width:500px) {
+    .content-main {
+        top: 80px;
+    }
+}
+
+
+
 
 .hero-content p {
     color: #ddd;
